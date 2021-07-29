@@ -28,3 +28,8 @@ th {
 .code-segment {
   text-align: initial;
 }
+
+code,
+.code-segment {
+  background-color: lavender;
+}
