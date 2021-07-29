@@ -1,0 +1,30 @@
+body {
+  background-color: cornsilk;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  text-align: center;
+}
+
+table {
+  border: 7px solid crimson;
+}
+
+td,
+th {
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+.section-header {
+  color: darkred;
+  text-align: center;
+}
+
+.code-segment {
+  text-align: initial;
+}

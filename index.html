@@ -10,7 +10,7 @@
     <header><h1>Basic HTML Cheatsheet</h1></header>
     <main>
       <section id="basic-tags">
-        <h2>Basic tags</h2>
+        <h2 class="section-header" >Basic tags</h2>
         <table>
           <thead>
             <tr>
@@ -26,7 +26,7 @@
               <td><code>&lt;html&gt;<code></td>
               <td>Html</td>
               <td>Creates an HTML document</td>
-              <td rowspan="4">
+              <td class = code-segment rowspan="4">
                 <pre>
                     <code>
                         &lt;html&gt;
@@ -46,22 +46,22 @@
             <tr>
               <td><code>&lt;head&gt;<code></td>
               <td>Head</td>
-              <td><p>Sets off the title & other info that isn't displayed.</p></td>
+              <td>Sets off the title & other info that isn't displayed.</td>
             </tr>
             <!-- body tag -->
             <tr>
               <td><code>&lt;body&gt;<code></td>
               <td>Body</td>
-              <td><p>Sets off the visible portion of the document.</p></td>
+              <td>Sets off the visible portion of the document.</td>
             </tr>
             <!-- title tag -->
             <tr>
               <td><code>&lt;title&gt;<code></td>
               <td>Title</td>
-              <td><p>
+              <td>
                     Puts name of the document in the title bar; when bookmarking
                     pages, this is what is bookmarked.
-                  </p>
+                  
               </td>
             </tr>
           </tbody>
@@ -69,7 +69,7 @@
       </section>
 
       <section id="text-tags">
-        <h2>Text Tags</h2>
+        <h2 class="section-header">Text Tags</h2>
         <table>
           <thead>
             <tr>
@@ -86,7 +86,7 @@
                   <code>&lt;h1&gt; &lt;/h1&gt; --&gt; &lt;h6&gt; &lt;/h6&gt;</code>
               </td>
               <td>Heading Tag</td>
-              <td><p>Creates headlines -- h1 being the largest to h6 being the smallest.</p></td>
+              <td>Creates headlines -- h1 being the largest to h6 being the smallest.</td>
               <td><pre><code>
 &lt;h1&gt;Travel blog&lt;/h1&gt;
 
@@ -117,7 +117,7 @@
               <td>Paragraph tag</td>
               <td>This tag is used to define a Paragraph</td>
               <td><code>&lt;p&gt;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quisquam repudiandae labore, voluptatibus eum corporis? Ut enim praesentium voluptatum porro!&lt;/p&gt;</code></td>
-              <td><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quisquam repudiandae labore, voluptatibus eum corporis? Ut enim praesentium voluptatum porro!</p></td>
+              <td><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quisquam repudiandae labore, voluptatibus eum corporis? Ut enim praesentium voluptatum porro!</td>
           </tr>
 
           <!-- strong tag -->
@@ -126,18 +126,18 @@
                   <code>&lt;strong&gt;</code>
               </td>
               <td>Strong Importance/Bold</td>
-              <td><p>This HTML element indicates that its contents have strong importance typically rendering the contents in bold type.</p></td>
+              <td>This HTML element indicates that its contents have strong importance typically rendering the contents in bold type.</td>
               <td><code>The event will be this &lt;strong&gt;Friday!&lt;/strong&gt;</code></td>
-              <td><p>The event will be the <strong>Friday!</strong></p></td>
+              <td><p>The event will be the <strong>Friday!</strong></td>
           </tr>
 
           <!-- emphasis tag -->
           <tr>
               <td><code>&lt;em&gt;</code></td>
               <td>Emphasis</td>
-              <td><p>This element marks text that has stress emphasis</p></td>
-              <td><code>His most famous work was, &lt;em&gt;"Star Wars VI Return of the Jedi"&lt;/em&gt;</code></td>
-              <td><p>His most famost work was, <em>"Star Wars VI Return of the Jedi</em></p></td>
+              <td>This element marks text that has stress emphasis</td>
+              <td><code>His most famous work was, &lt;em&gt;"Star Wars VI Return of the Jedi".&lt;/em&gt;</code></td>
+              <td><p>His most famost work was, <em>"Star Wars VI Return of the Jedi".</em></td>
 
           </tr>
         
@@ -145,7 +145,7 @@
       </section>
 
       <section id="list-tags">
-          <h2>List Tags</h2>
+          <h2 class="section-header">List Tags</h2>
 
           <table>
             <thead>
@@ -162,22 +162,22 @@
                 <tr>
                     <td><code>&lt;ol&gt;</code></td>
                     <td>Ordered list</td>
-                    <td><p>This defines an ordered list. An ordered list can be numerical or alphabetical</p></td>
-                    <td rowspan="3"> <pre><code>
-                        &lt;h3&gt;Chores&lt;/h3&gt;
-                        &lt;ol&gt;
-                            &lt;li&gt;Clean room&lt;/li&gt;
-                            &lt;li&gt;Take out Garbage&lt;/li&gt;
-                            &lt;li&gt;Feed cats&lt;/li&gt;
-                        &lt;/ol&gt;
+                    <td><p>This defines an ordered list. An ordered list can be numerical or alphabetical</td>
+                    <td class="code-segment" rowspan="3"> <pre><code>
+                 &lt;h3&gt;Chores&lt;/h3&gt;
+                 &lt;ol&gt;
+                     &lt;li&gt;Clean room&lt;/li&gt;
+                     &lt;li&gt;Take out Garbage&lt;/li&gt;
+                     &lt;li&gt;Feed cats&lt;/li&gt;
+                 &lt;/ol&gt;
         
-                        &lt;h3&gt;Favorite food&lt;/h3&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;Pizza&lt;/li&gt;
-                            &lt;li&gt;Sushi&lt;/li&gt;
-                            &lt;li&gt;Ramen&lt;/li&gt;</code></pre>
+                 &lt;h3&gt;Favorite food&lt;/h3&gt;
+                 &lt;ul&gt;
+                     &lt;li&gt;Pizza&lt;/li&gt;
+                     &lt;li&gt;Sushi&lt;/li&gt;
+                     &lt;li&gt;Ramen&lt;/li&gt;</code></pre>       
                      </td>
-                    <td rowspan="3"><h3>Chores</h3>
+                    <td class="code-segment" rowspan="3"><h3>Chores</h3>
                         <ol>
                             <li>Clean room</li>
                             <li>Take out Garbage</li>
@@ -196,14 +196,14 @@
                 <tr>
                     <td><code>&lt;ul&gt;</code></td>
                     <td>Ordered list</td>
-                    <td><p>This defines an unordered list. groups a collection of items having no numerical order</p></td>
+                    <td><p>This defines an unordered list. groups a collection of items having no numerical order</td>
                 </tr>
 
                 <!-- list item-->
                 <tr>
                     <td><code>&lt;li&gt;</code></td>
                     <td>list item</td>
-                    <td><p>This element is used to represent an item in a list</p></td>
+                    <td><p>This element is used to represent an item in a list</td>
                 </tr>
 
                 </ul>
