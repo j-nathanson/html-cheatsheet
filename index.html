@@ -7,7 +7,7 @@
     <title>HTML Cheatsheet</title>
   </head>
   <body>
-    <header><h1>HTML Cheatsheet</h1></header>
+    <header><h1>Basic HTML Cheatsheet</h1></header>
     <main>
       <section id="basic-tags">
         <h2>Basic tags</h2>
@@ -21,6 +21,7 @@
             </tr>
           </thead>
           <tbody>
+             <!-- html tag -->
             <tr>
               <td><code>&lt;html&gt;<code></td>
               <td>Html</td>
@@ -41,16 +42,19 @@
                 </pre>
               </td>
             </tr>
+            <!-- head tag -->
             <tr>
               <td><code>&lt;head&gt;<code></td>
               <td>Head</td>
               <td><p>Sets off the title & other info that isn't displayed.</p></td>
             </tr>
+            <!-- body tag -->
             <tr>
               <td><code>&lt;body&gt;<code></td>
               <td>Body</td>
               <td><p>Sets off the visible portion of the document.</p></td>
             </tr>
+            <!-- title tag -->
             <tr>
               <td><code>&lt;title&gt;<code></td>
               <td>Title</td>
@@ -64,7 +68,7 @@
         </table>
       </section>
 
-      <section id="text-tages">
+      <section id="text-tags">
         <h2>Text Tags</h2>
         <table>
           <thead>
@@ -76,11 +80,12 @@
               <th>Result</th>
             </tr>
           </thead>
+          <!-- h tags -->
           <tr>
               <td>
                   <code>&lt;h1&gt; &lt;/h1&gt; --&gt; &lt;h6&gt; &lt;/h6&gt;</code>
               </td>
-              <td>Heading</td>
+              <td>Heading Tag</td>
               <td><p>Creates headlines -- h1 being the largest to h6 being the smallest.</p></td>
               <td><pre><code>
 &lt;h1&gt;Travel blog&lt;/h1&gt;
@@ -105,15 +110,28 @@
                 <h6>Travel blog</h6>
               </td>
           </tr>
+          
+          <!-- p tags -->
+          <tr>
+              <td><code>&lt;p&gt;</code></td>
+              <td>Paragraph tag</td>
+              <td>This tag is used to define a Paragraph</td>
+              <td><code>&lt;p&gt;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quisquam repudiandae labore, voluptatibus eum corporis? Ut enim praesentium voluptatum porro!&lt;/p&gt;</code></td>
+              <td><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quisquam repudiandae labore, voluptatibus eum corporis? Ut enim praesentium voluptatum porro!</p></td>
+          </tr>
+
+          <!-- strong tag -->
           <tr>
               <td>
                   <code>&lt;strong&gt;</code>
               </td>
               <td>Strong Importance/Bold</td>
-              <td><p>this HTML element indicates that its contents have strong importance typically rendering the contents in bold type.</p></td>
+              <td><p>This HTML element indicates that its contents have strong importance typically rendering the contents in bold type.</p></td>
               <td><code>The event will be this &lt;strong&gt;Friday!&lt;/strong&gt;</code></td>
               <td><p>The event will be the <strong>Friday!</strong></p></td>
           </tr>
+
+          <!-- emphasis tag -->
           <tr>
               <td><code>&lt;em&gt;</code></td>
               <td>Emphasis</td>
@@ -124,6 +142,73 @@
           </tr>
         
         </table>
+      </section>
+
+      <section id="list-tags">
+          <h2>List Tags</h2>
+
+          <table>
+            <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Example</th>
+                  <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ordered list -->
+                <tr>
+                    <td><code>&lt;ol&gt;</code></td>
+                    <td>Ordered list</td>
+                    <td><p>This defines an ordered list. An ordered list can be numerical or alphabetical</p></td>
+                    <td rowspan="3"> <pre><code>
+                        &lt;h3&gt;Chores&lt;/h3&gt;
+                        &lt;ol&gt;
+                            &lt;li&gt;Clean room&lt;/li&gt;
+                            &lt;li&gt;Take out Garbage&lt;/li&gt;
+                            &lt;li&gt;Feed cats&lt;/li&gt;
+                        &lt;/ol&gt;
+        
+                        &lt;h3&gt;Favorite food&lt;/h3&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;Pizza&lt;/li&gt;
+                            &lt;li&gt;Sushi&lt;/li&gt;
+                            &lt;li&gt;Ramen&lt;/li&gt;</code></pre>
+                     </td>
+                    <td rowspan="3"><h3>Chores</h3>
+                        <ol>
+                            <li>Clean room</li>
+                            <li>Take out Garbage</li>
+                            <li>Feed cats</li>
+                        </ol>
+        
+                        <h3>Favorite food</h3>
+                        <ul>
+                            <li>Pizza</li>
+                            <li>Sushi</li>
+                            <li>Ramen</li>
+                        </ul></td>
+                </tr>
+
+                <!-- unordered list -->
+                <tr>
+                    <td><code>&lt;ul&gt;</code></td>
+                    <td>Ordered list</td>
+                    <td><p>This defines an unordered list. groups a collection of items having no numerical order</p></td>
+                </tr>
+
+                <!-- list item-->
+                <tr>
+                    <td><code>&lt;li&gt;</code></td>
+                    <td>list item</td>
+                    <td><p>This element is used to represent an item in a list</p></td>
+                </tr>
+
+                </ul>
+            </tbody>
+          </table>
       </section>
     </main>
   </body>
